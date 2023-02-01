@@ -1,0 +1,6 @@
+WebApp				 -->http://localhost:2000
+
+IdentityService.Api	 --> http://localhost:3000
+
+FavoriteService.Api	 --> http://localhost:5001
+PageService.Api	 --> http://localhost:5002
