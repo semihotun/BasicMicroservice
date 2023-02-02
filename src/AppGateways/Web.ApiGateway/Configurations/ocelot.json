@@ -1,0 +1,52 @@
+{
+
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "FavoriteService",
+      "DownstreamPathTemplate": "/api/favorite/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/favorite/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "PageService",
+      "DownstreamPathTemplate": "/api/page/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/page/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "IdentityService",
+      "DownstreamPathTemplate": "/api/auth",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/auth",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "BasketService",
+      "DownstreamPathTemplate": "/api/Basket/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/basket/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
+      "UpstreamScheme": "http"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://web.apigateway:2000",
+    "ServiceDiscoveryProvider": {
+      "Host": "s_consul",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+
+
+
+}

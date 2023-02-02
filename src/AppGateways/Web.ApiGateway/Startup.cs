@@ -54,6 +54,8 @@ namespace Web.ApiGateway
             {
                 endpoints.MapControllers();
             });
+
+            app.UseOcelot();
         }
     }
 }

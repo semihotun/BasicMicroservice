@@ -1,0 +1,44 @@
+version: '3.4'
+
+services:
+  web.apigateway:
+    image: ${DOCKER_REGISTRY-}webapigateway
+    build:
+      context: .
+      dockerfile: src/AppGateways/Web.ApiGateway/Dockerfile
+
+  favoriteservice:
+    image: ${DOCKER_REGISTRY-}favoriteservice
+    build:
+      context: .
+      dockerfile: src/Services/FavoriteService/FavoriteService/Dockerfile
+
+
+  identityservice:
+    image: ${DOCKER_REGISTRY-}identityservice
+    build:
+      context: .
+      dockerfile: src/Services/IdentityService/IdentityService/Dockerfile
+
+
+  pageservice:
+    image: ${DOCKER_REGISTRY-}pageservice
+    build:
+      context: .
+      dockerfile: src/Services/PageService/PageService/Dockerfile
+
+  s_redis:
+    container_name: c_redis
+    image: redis    
+
+  s_rabbitmq:
+    container_name: c_rabbitmq
+    image: rabbitmq:3-management
+
+  s_sqlserver:
+    container_name: c_sqlserver
+    image: mcr.microsoft.com/mssql/server:2019-latest
+
+  s_consul:
+    container_name: c_consul
+    image: consul
