@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="10.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.13" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.2.0" />
+		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.15.0" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.0" />
+		<PackageReference Include="	Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+		<PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+	
+
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\BuildingBlocks\Setup\Setup\Setup.csproj" />
+	  <ProjectReference Include="..\..\..\BuildingBlocks\SwaggerEx\SwaggerEx\SwaggerEx.csproj" />
+	</ItemGroup>
+
+</Project>

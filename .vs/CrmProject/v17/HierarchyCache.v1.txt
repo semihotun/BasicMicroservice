@@ -1,0 +1,717 @@
+﻿++Solution 'CrmProject' ‎(16 of 16 projects)
+i:{00000000-0000-0000-0000-000000000000}:CrmProject.sln
+++Tests
+i:{00000000-0000-0000-0000-000000000000}:Tests
+++Solution Items
+i:{00000000-0000-0000-0000-000000000000}:Solution Items
+++ServiceUrl.txt
+i:{f287c031-4a54-4c52-b523-dca9c103c088}:C:\Users\Semih\source\repos\CrmProject\ServiceUrl.txt
+++docker-compose
+i:{00000000-0000-0000-0000-000000000000}:docker-compose
+++.dockerignore
+i:{72a5b857-dd9e-405c-be60-041d32a02abf}:c:\users\semih\source\repos\crmproject\.dockerignore
+++docker-compose.yml
+i:{72a5b857-dd9e-405c-be60-041d32a02abf}:c:\users\semih\source\repos\crmproject\docker-compose.yml
+++docker-compose.override.yml
+i:{72a5b857-dd9e-405c-be60-041d32a02abf}:c:\users\semih\source\repos\crmproject\docker-compose.override.yml
+++src
+i:{00000000-0000-0000-0000-000000000000}:src
+++Clients
+i:{e5ca76f1-3864-4ea7-9bfc-3d32fe0d169a}:Clients
+++AngularWebApp
+i:{a9f0a135-1f2e-4888-a9d4-9a65ec5bd1ba}:AngularWebApp
+++AppGateways
+i:{e5ca76f1-3864-4ea7-9bfc-3d32fe0d169a}:AppGateways
+++WebApiGateways
+i:{89bba498-8f1d-4b02-88d0-d708d83bb12c}:WebApiGateways
+++Web.ApiGateway
+i:{fd5dd212-a128-4418-ba6c-7f7d7dc05422}:Web.ApiGateway
+++Connected Services 
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:>6307
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6207
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6208
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:>6209
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:>6210
+++Dependencies
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:>6306
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:>516
+i:{d304d889-e187-44c1-b801-c02d301da53a}:>518
+i:{05ba124d-8e9c-45fb-9ca6-eaffd2933b28}:>519
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:>517
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:>1853
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:>3138
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:>5515
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6204
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6206
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:>6203
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>865
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:>1686
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:>6205
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:>978
+++Properties
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\properties\
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\properties\
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\properties\
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\properties\
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\properties\
+++Configurations
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\configurations\
+++Controllers
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\controllers\
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\controllers\
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\controllers\
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\controllers\
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\controllers\
+++appsettings.json
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\appsettings.json
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\appsettings.json
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\appsettings.json
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\appsettings.json
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\appsettings.json
+++Dockerfile
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\dockerfile
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\dockerfile
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\dockerfile
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\dockerfile
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\dockerfile
+++Program.cs
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\program.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\program.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\program.cs
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\program.cs
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\program.cs
+++Startup.cs
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\startup.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\startup.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\startup.cs
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\startup.cs
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\startup.cs
+++WeatherForecast.cs
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\weatherforecast.cs
+++No service dependencies discovered
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:>6308
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6214
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6212
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:>6211
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:>6213
+++Analyzers
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:analyzers
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:analyzers
+i:{d304d889-e187-44c1-b801-c02d301da53a}:analyzers
+i:{05ba124d-8e9c-45fb-9ca6-eaffd2933b28}:analyzers
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:analyzers
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:analyzers
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:analyzers
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:analyzers
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:analyzers
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:analyzers
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:analyzers
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:analyzers
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:analyzers
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:analyzers
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:analyzers
+++Frameworks
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:frameworks
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:frameworks
+i:{d304d889-e187-44c1-b801-c02d301da53a}:frameworks
+i:{05ba124d-8e9c-45fb-9ca6-eaffd2933b28}:frameworks
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:frameworks
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:frameworks
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:frameworks
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:frameworks
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:frameworks
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:frameworks
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:frameworks
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:frameworks
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:frameworks
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:frameworks
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:frameworks
+++Packages
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:packages
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:packages
+i:{d304d889-e187-44c1-b801-c02d301da53a}:packages
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:packages
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:packages
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:packages
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:packages
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:packages
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:packages
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:packages
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:packages
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:packages
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:packages
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:packages
+++launchSettings.json
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\properties\launchsettings.json
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\properties\launchsettings.json
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\properties\launchsettings.json
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\properties\launchsettings.json
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\properties\launchsettings.json
+++ocelot.json
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\configurations\ocelot.json
+++WeatherForecastController.cs
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\controllers\weatherforecastcontroller.cs
+++appsettings.Development.json
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\appsettings.development.json
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\appsettings.development.json
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\appsettings.development.json
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\appsettings.development.json
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\.nuget\packages\microsoft.aspnetcore.mvc.analyzers\2.2.0\analyzers\dotnet\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{05ba124d-8e9c-45fb-9ca6-eaffd2933b28}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{05ba124d-8e9c-45fb-9ca6-eaffd2933b28}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.AspNetCore.App
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\microsoft.aspnetcore.app
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\microsoft.aspnetcore.app
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\microsoft.aspnetcore.app
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\microsoft.aspnetcore.app
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:c:\users\semih\source\repos\crmproject\src\appgateways\web.apigateway\microsoft.netcore.app
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\consul\consulconfig\microsoft.netcore.app
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\microsoft.netcore.app
+i:{05ba124d-8e9c-45fb-9ca6-eaffd2933b28}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.factory\microsoft.netcore.app
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.rabbitmq\microsoft.netcore.app
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:c:\users\semih\source\repos\crmproject\src\buildingblocks\swaggerex\swaggerex\microsoft.netcore.app
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:c:\users\semih\source\repos\crmproject\src\buildingblocks\identityex\identityex\microsoft.netcore.app
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\source\repos\crmproject\src\buildingblocks\setup\setup\microsoft.netcore.app
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\microsoft.netcore.app
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\microsoft.netcore.app
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\microsoft.netcore.app
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\microsoft.netcore.app
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\microsoft.netcore.app
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\microsoft.netcore.app
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\microsoft.netcore.app
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.14.0)
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:>6445
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6544
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:>6520
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:>6361
+++Ocelot (17.0.0)
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:>6444
+++Ocelot.Provider.Consul (17.0.0)
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:>6446
+++Swashbuckle.AspNetCore (5.6.3)
+i:{680a5ff1-022b-4772-84ea-2aa156137853}:>6442
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:>6339
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6532
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6448
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:>6518
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6470
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:>6358
+++BuildingBlocks
+i:{e5ca76f1-3864-4ea7-9bfc-3d32fe0d169a}:BuildingBlocks
+++Consul
+i:{7b4b32af-ce48-4ea9-ab56-e53df808ec94}:Consul
+++ConsulConfig
+i:{fb2e739a-0a75-483d-bf06-f9fdd62718c7}:ConsulConfig
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\source\repos\crmproject\src\buildingblocks\consul\consulconfig\bin\debug\net5.0\consulconfig.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\buildingblocks\consul\consulconfig\bin\debug\net5.0\consulconfig.dll
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\buildingblocks\consul\consulconfig\bin\debug\net5.0\consulconfig.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\buildingblocks\consul\consulconfig\bin\debug\net5.0\consulconfig.dll
+++ConsulRegistration.cs
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\consul\consulconfig\consulregistration.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:c:\users\semih\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.12\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.12\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.12\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Consul (1.6.10.3)
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:>6407
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6457
+++Microsoft.AspNetCore (2.2.0)
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:>6406
+++Microsoft.EntityFrameworkCore (5.0.12)
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:>6402
+++Microsoft.Extensions.Configuration (5.0.0)
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:>6405
+++Microsoft.Extensions.DependencyInjection.Abstractions (5.0.0)
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:>6404
+++Microsoft.Extensions.Hosting (5.0.0)
+i:{039dbf29-b740-4ae5-800c-4bbb62c3ee9a}:>6403
+++EventBus
+i:{7b4b32af-ce48-4ea9-ab56-e53df808ec94}:EventBus
+++EventBus.Base
+i:{7b358173-bf2f-4ff4-912d-bc6bde8b5b1f}:EventBus.Base
+i:{05ba124d-8e9c-45fb-9ca6-eaffd2933b28}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\bin\debug\net5.0\eventbus.base.dll
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\bin\debug\net5.0\eventbus.base.dll
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\bin\debug\net5.0\eventbus.base.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\bin\debug\net5.0\eventbus.base.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\bin\debug\net5.0\eventbus.base.dll
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\bin\debug\net5.0\eventbus.base.dll
+++Abstraction
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\abstraction\
+++Events
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\events\
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\events\
+++SubManagers
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\submanagers\
+++EventBusConfig.cs
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\eventbusconfig.cs
+++SubscriptionInfo.cs
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\subscriptioninfo.cs
+++IEventBus.cs
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\abstraction\ieventbus.cs
+++IEventBusSubscriptionManager.cs
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\abstraction\ieventbussubscriptionmanager.cs
+++IIntegrationEventHandler.cs
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\abstraction\iintegrationeventhandler.cs
+++BaseEventBus.cs
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\events\baseeventbus.cs
+++IntegrationEvent.cs
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\events\integrationevent.cs
+++InMemoryEventBusSubscriptionManager.cs
+i:{d304d889-e187-44c1-b801-c02d301da53a}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.base\submanagers\inmemoryeventbussubscriptionmanager.cs
+++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+i:{d304d889-e187-44c1-b801-c02d301da53a}:>6316
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:>6329
+++Newtonsoft.Json (13.0.1)
+i:{d304d889-e187-44c1-b801-c02d301da53a}:>6315
+++RabbitMQ.Client (6.2.2)
+i:{d304d889-e187-44c1-b801-c02d301da53a}:>6317
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:>6436
+++EventBus.Factory
+i:{7b358173-bf2f-4ff4-912d-bc6bde8b5b1f}:EventBus.Factory
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.factory\bin\debug\net5.0\eventbus.factory.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.factory\bin\debug\net5.0\eventbus.factory.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.factory\bin\debug\net5.0\eventbus.factory.dll
+++EventBusFactory.cs
+i:{05ba124d-8e9c-45fb-9ca6-eaffd2933b28}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.factory\eventbusfactory.cs
+++Projects
+i:{05ba124d-8e9c-45fb-9ca6-eaffd2933b28}:projects
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:projects
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:projects
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:projects
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:projects
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:projects
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:projects
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:projects
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:projects
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:projects
+++EventBus.RabbitMQ
+i:{05ba124d-8e9c-45fb-9ca6-eaffd2933b28}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.rabbitmq\bin\debug\net5.0\eventbus.rabbitmq.dll
+i:{7b358173-bf2f-4ff4-912d-bc6bde8b5b1f}:EventBus.RabbitMQ
+++EventBusRabbitMQ.cs
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.rabbitmq\eventbusrabbitmq.cs
+++RabbitMQPersistenConnection.cs
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:c:\users\semih\source\repos\crmproject\src\buildingblocks\eventbus\eventbus.rabbitmq\rabbitmqpersistenconnection.cs
+++Polly (7.2.2)
+i:{c8594498-51f0-45c9-bc5e-7291dc678882}:>6439
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:>6510
+++SwaggerEx
+i:{7b4b32af-ce48-4ea9-ab56-e53df808ec94}:SwaggerEx
+i:{b568e46d-6adf-469d-8542-8b8cd126b9a6}:SwaggerEx
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\source\repos\crmproject\src\buildingblocks\swaggerex\swaggerex\bin\debug\net5.0\swaggerex.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\buildingblocks\swaggerex\swaggerex\bin\debug\net5.0\swaggerex.dll
+++AddAuthHeaderOperationFilter.cs
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:c:\users\semih\source\repos\crmproject\src\buildingblocks\swaggerex\swaggerex\addauthheaderoperationfilter.cs
+++SwaggerServiceCollectionExtension.cs
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:c:\users\semih\source\repos\crmproject\src\buildingblocks\swaggerex\swaggerex\swaggerservicecollectionextension.cs
+++Swashbuckle.AspNetCore.Swagger (5.6.3)
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:>6390
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6473
+++Swashbuckle.AspNetCore.SwaggerGen (5.6.3)
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:>6391
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6474
+++Swashbuckle.AspNetCore.SwaggerUI (5.6.3)
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:>6392
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6478
+++IdentityEx
+i:{36d578d9-0734-44d2-9562-91d754ae40ee}:c:\users\semih\source\repos\crmproject\src\buildingblocks\identityex\identityex\bin\debug\net5.0\identityex.dll
+i:{7b4b32af-ce48-4ea9-ab56-e53df808ec94}:IdentityEx
+i:{89ee5cca-df8a-4838-b005-ff0f6dbfd7b3}:IdentityEx
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\source\repos\crmproject\src\buildingblocks\identityex\identityex\bin\debug\net5.0\identityex.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\buildingblocks\identityex\identityex\bin\debug\net5.0\identityex.dll
+++Ioc
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:c:\users\semih\source\repos\crmproject\src\buildingblocks\identityex\identityex\ioc\
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\ioc\
+++AdminAuthExtension.cs
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:c:\users\semih\source\repos\crmproject\src\buildingblocks\identityex\identityex\adminauthextension.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\extension\adminauthextension.cs
+++AuthorizeControl.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\actionfilter\authorizecontrol.cs
+++SecurityKeyHelper.cs
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:c:\users\semih\source\repos\crmproject\src\buildingblocks\identityex\identityex\securitykeyhelper.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\helper\securitykeyhelper.cs
+++TokenOptions.cs
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:c:\users\semih\source\repos\crmproject\src\buildingblocks\identityex\identityex\tokenoptions.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\models\tokenoptions.cs
+++ServiceTool.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\ioc\servicetool.cs
+++Microsoft.AspNetCore.Authentication.JwtBearer (2.2.0)
+i:{0b754c4e-591a-45a1-a8f5-2e071724448b}:>6340
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6453
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6476
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:>6360
+++Setup
+i:{7b4b32af-ce48-4ea9-ab56-e53df808ec94}:Setup
+i:{fad4f1e0-4481-4047-87b0-102f2e86e8b1}:Setup
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\buildingblocks\setup\setup\bin\debug\net5.0\setup.dll
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\buildingblocks\setup\setup\bin\debug\net5.0\setup.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\buildingblocks\setup\setup\bin\debug\net5.0\setup.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\buildingblocks\setup\setup\bin\debug\net5.0\setup.dll
+++RabbitMqSetUpExtension.cs
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\source\repos\crmproject\src\buildingblocks\setup\setup\rabbitmqsetupextension.cs
+++Microsoft.CodeAnalysis.Analyzers
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:c:\users\semih\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.AspNetCore.Mvc (2.2.0)
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:>6330
+++Microsoft.Extensions.Configuration.Abstractions (5.0.0)
+i:{9197e365-d726-4b76-8d4d-abab4f903e2e}:>6328
+++Services
+i:{e5ca76f1-3864-4ea7-9bfc-3d32fe0d169a}:Services
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\services\
+++SiteMapService
+i:{a8b168e7-8980-4f9f-8525-22b769d0cbf0}:SiteMapService
+i:{fa09737d-7385-42c8-b1e6-f1ebf29ab717}:SiteMapService
+++AggregateModels
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\aggregatemodels\
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\aggregatemodels\
+++Context
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\context\
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\context\
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\context\
+++EntityConfigurations
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\entityconfigurations\
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\entityconfigurations\
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\entityconfigurations\
+++Extension
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\extension\
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\extension\
+++IntegrationEvents
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\integrationevents\
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\integrationevents\
+++SiteMapCreatedIntegrationEvent.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\integrationevents\sitemapcreatedintegrationevent.cs
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\integrationevents\page\sitemapcreatedintegrationevent.cs
+++SiteMapCreatedIntegrationEventHandler.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\integrationevents\sitemapcreatedintegrationeventhandler.cs
+++SeedWork
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\seedwork\
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\seedwork\
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\seedwork\
+++SiteMap.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\aggregatemodels\sitemap.cs
+++SiteMapDbContext.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\context\sitemapdbcontext.cs
+++SiteMapDbContextSeed.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\context\sitemapdbcontextseed.cs
+++SiteMapController.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\controllers\sitemapcontroller.cs
+++SiteMapEntityTypeConfiguration.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\entityconfigurations\sitemapentitytypeconfiguration.cs
+++DbContextRegistiration.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\extension\dbcontextregistiration.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\extension\dbcontextregistiration.cs
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\extensions\dbcontextregistiration.cs
+++HostExtension.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\extension\hostextension.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\extension\hostextension.cs
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\extensions\hostextension.cs
+++MediatorExtension.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\extension\mediatorextension.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\extension\mediatorextension.cs
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\extensions\mediatorextension.cs
+++ServiceRegistration.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\extension\serviceregistration.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\extension\serviceregistration.cs
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\startup\serviceregistration.cs
+++BaseEntity.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\seedwork\baseentity.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\seedwork\baseentity.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\seedwork\baseentity.cs
+++Enumeration.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\seedwork\enumeration.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\seedwork\enumeration.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\seedwork\enumeration.cs
+++IAggregateRoot.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\seedwork\iaggregateroot.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\seedwork\iaggregateroot.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\seedwork\iaggregateroot.cs
+++IRepository.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\seedwork\irepository.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\seedwork\irepository.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\seedwork\irepository.cs
+++ValueObject.cs
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:c:\users\semih\source\repos\crmproject\src\services\sitemapservice\sitemapservice\seedwork\valueobject.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\seedwork\valueobject.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\seedwork\valueobject.cs
+++AutoMapper (11.0.0)
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6538
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6452
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:>6382
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6531
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6440
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:>6376
+++MediatR (10.0.0)
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6533
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6449
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6475
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:>6377
+++MediatR.Extensions.Microsoft.DependencyInjection (10.0.0)
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6546
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6456
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:>6384
+++Microsoft.EntityFrameworkCore (5.0.13)
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6529
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6468
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:>6498
+++Microsoft.EntityFrameworkCore.Relational (5.0.13)
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6534
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6450
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:>6505
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.13)
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6530
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6437
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:>6500
+++Microsoft.EntityFrameworkCore.Tools (5.0.13)
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6541
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:>6513
+++System.Data.SqlClient (4.8.3)
+i:{94b8e496-2310-41cb-9a59-2cbcffc32d7d}:>6536
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6451
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:>6508
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:>6359
+++IdentityService
+i:{a8b168e7-8980-4f9f-8525-22b769d0cbf0}:IdentityService
+i:{9f515166-2312-496b-8965-3f3ae50a755f}:IdentityService
+++Helper
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\helper\
+++Models
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\models\
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\models\
+++Result
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\result\
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\result\
+++ContextTable
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\context\contexttable\
+++IdentityContext.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\context\identitycontext.cs
+++IdentityContextSeed.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\context\identitycontextseed.cs
+++AuthController.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\controllers\authcontroller.cs
+++AdminUserConfiguration.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\entityconfigurations\adminuserconfiguration.cs
+++ClaimExtensions.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\extension\claimextensions.cs
+++HashingHelper.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\helper\hashinghelper.cs
+++SigningCredentialsHelper.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\helper\signingcredentialshelper.cs
+++AccessToken.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\models\accesstoken.cs
+++ClaimTypeValue.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\models\claimtypevalue.cs
+++LoginRequestModel.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\models\loginrequestmodel.cs
+++LoginResponseModel.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\models\loginresponsemodel.cs
+++UserForRegisterDto.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\models\userforregisterdto.cs
+++ApiResult.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\result\apiresult.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\result\apiresult.cs
+++DataResult.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\result\dataresult.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\result\dataresult.cs
+++ErrorDataResult.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\result\errordataresult.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\result\errordataresult.cs
+++ErrorResult.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\result\errorresult.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\result\errorresult.cs
+++IDataResult.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\result\idataresult.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\result\idataresult.cs
+++IResult.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\result\iresult.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\result\iresult.cs
+++Result.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\result\result.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\result\result.cs
+++SuccessDataResult.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\result\successdataresult.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\result\successdataresult.cs
+++SuccessResult.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\result\successresult.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\result\successresult.cs
+++AdminAuthService.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\services\adminauthservice.cs
+++IAdminAuthService.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\services\iadminauthservice.cs
+++IJwtService.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\services\ijwtservice.cs
+++JwtService.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\services\jwtservice.cs
+++Microsoft.IdentityModel.Tokens (6.15.0)
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6454
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6477
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.11.1)
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6455
+++System.IdentityModel.Tokens.Jwt (6.15.0)
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:>6447
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6469
+++AdminUser.cs
+i:{a2a0118e-5e15-4ab4-bb6d-71ee18776038}:c:\users\semih\source\repos\crmproject\src\services\identityservice\identityservice\context\contexttable\adminuser.cs
+++FavoriteService
+i:{a8b168e7-8980-4f9f-8525-22b769d0cbf0}:FavoriteService
+i:{a5894155-2508-4bc6-8700-c4e13d8de561}:FavoriteService
+++FavoriteController.cs
+i:{e717ee47-2451-4d5f-9040-3f26db29efb7}:c:\users\semih\source\repos\crmproject\src\services\favoriteservice\favoriteservice\controllers\favoritecontroller.cs
+++PageService
+i:{a8b168e7-8980-4f9f-8525-22b769d0cbf0}:PageService
+i:{044dda43-e9f3-4f41-8194-1de15aa1468d}:PageService
+++Domain
+i:{044dda43-e9f3-4f41-8194-1de15aa1468d}:Domain
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\bin\debug\net5.0\domain.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\bin\debug\net5.0\domain.dll
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\bin\debug\net5.0\domain.dll
+++Exceptions
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\exceptions\
+++Utilities
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\
+++PageAggregate
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\aggregatemodels\pageaggregate\
+++Helpers
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\helpers\
+++Swagger
+++Microsoft.Extensions.Configuration.Binder (5.0.0)
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6471
+++Microsoft.OpenApi (1.2.3)
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:>6472
+++Page.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\aggregatemodels\pageaggregate\page.cs
+++PageSeo.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\aggregatemodels\pageaggregate\pageseo.cs
+++StringHelpers.cs
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\helpers\stringhelpers.cs
+++Insfrastructure
+i:{044dda43-e9f3-4f41-8194-1de15aa1468d}:Insfrastructure
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\bin\debug\net5.0\insfrastructure.dll
+++Extensions
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\extensions\
+++Repositories
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\repositories\
+++Seeding
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\context\seeding\
+++PageDbContext.cs
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\context\pagedbcontext.cs
+++PageDbContextSeed.cs
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\context\pagedbcontextseed.cs
+++PageConfiguration.cs
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\entityconfigurations\pageconfiguration.cs
+++PageSeoConfiguration.cs
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\entityconfigurations\pageseoconfiguration.cs
+++AutoMapperExtension.cs
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\insfrastructure\extensions\automapperextension.cs
+++Microsoft.AspNetCore.Hosting.Abstractions (2.2.0)
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:>6502
+++Application
+i:{e3a36290-55f9-4c54-b7d1-ad33222161d7}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\bin\debug\net5.0\application.dll
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\bin\debug\net5.0\application.dll
+i:{044dda43-e9f3-4f41-8194-1de15aa1468d}:Application
+++BaseController.cs
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\controllers\basecontroller.cs
+++PageController.cs
+i:{39c6a0f8-524f-4664-8110-4721e8d6dc01}:c:\users\semih\source\repos\crmproject\src\services\pageservice\pageservice\controllers\pagecontroller.cs
+++DomainEventHandlers
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\domaineventhandlers\
+++Features
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\features\
+++Handlers
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\
+++Page
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\integrationevents\page\
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\page\
+++Interfaces
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\interfaces\
+++StartUp
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\startup\
+++Microsoft.AspNetCore.Http.Abstractions (2.2.0)
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:>6385
+++Commands
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\page\commands\
+++Mapping
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\page\mapping\
+++Queries
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\page\queries\
+++Create
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\page\commands\create\
+++Delete
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\page\commands\delete\
+++Update
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\page\commands\update\
+++PageMappingProfile.cs
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\page\mapping\pagemappingprofile.cs
+++CreatePageCommand.cs
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\page\commands\create\createpagecommand.cs
+++CreatePageCommandHandler.cs
+i:{a6beabff-bdc6-4076-ad30-7e0b913d78fd}:c:\users\semih\source\repos\crmproject\src\services\pageservice\application\handlers\page\commands\create\createpagecommandhandler.cs
+++NewFolder
+++ActionFilter
+i:{2711b128-5272-4012-af6c-cd901deb15ab}:c:\users\semih\source\repos\crmproject\src\services\pageservice\domain\utilities\actionfilter\

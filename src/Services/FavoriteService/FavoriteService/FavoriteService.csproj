@@ -15,6 +15,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\BuildingBlocks\Consul\ConsulConfig\ConsulConfig.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\IdentityEx\IdentityEx\IdentityEx.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Setup\Setup\Setup.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\SwaggerEx\SwaggerEx\SwaggerEx.csproj" />
   </ItemGroup>
 
 </Project>

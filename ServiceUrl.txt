@@ -4,3 +4,4 @@ IdentityService.Api	 --> http://localhost:3000
 
 FavoriteService.Api	 --> http://localhost:5001
 PageService.Api	 --> http://localhost:5002
+SiteMapService.Api --> 5003

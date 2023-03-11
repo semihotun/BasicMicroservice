@@ -50,7 +50,6 @@ namespace EventBus.Base.Events
         {
             //Service içindeki handle methodunu çağırır
             eventName = ProccessEventName(eventName);
-
             var processed = false;
 
             if (SubsManager.HasSubscriptionsForEvent(eventName))
@@ -70,6 +69,7 @@ namespace EventBus.Base.Events
                         var concreteType = typeof(IIntegrationEventHandler<>).MakeGenericType(eventType);
 
                         await (Task)concreteType.GetMethod("Handle").Invoke(handler, new object[] { integrationEvent });
+
                     }
                 }
                 processed = true;
@@ -81,7 +81,7 @@ namespace EventBus.Base.Events
         public abstract void Publish(IntegrationEvent integrationEvent);
         public abstract void Subscribe<T, TH>() where T : IntegrationEvent where TH : IIntegrationEventHandler<T>;
 
-        public abstract void UnSubscribe<T, TH>() where T : IntegrationEvent where TH : IIntegrationEventHandler<T>; 
-   
+        public abstract void UnSubscribe<T, TH>() where T : IntegrationEvent where TH : IIntegrationEventHandler<T>;
+
     }
 }

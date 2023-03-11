@@ -1,17 +1,15 @@
 using ConsulConfig;
+using IdentityService.Context;
+using IdentityService.Extension;
+using IdentityService.Helper;
+using IdentityService.SeedWork;
+using IdentityService.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Setup;
 
 namespace IdentityService
 {
@@ -27,13 +25,13 @@ namespace IdentityService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.ConfigureDbContext(Configuration);
+            services.AddTransient<IRepository,IdentityContext>();
+            services.AddTransient<IAdminAuthService, AdminAuthService>();
+            services.AddTransient<IJwtService, JwtService>();
 
-            services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "IdentityService", Version = "v1" });
-            });
-            services.ConfigureConsul(Configuration);
+            services.AddApplicationRegistration();
+            services.RabbitMqSetUp(Configuration, "IdentityService");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +48,7 @@ namespace IdentityService
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

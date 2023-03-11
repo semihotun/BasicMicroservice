@@ -42,3 +42,18 @@ services:
   s_consul:
     container_name: c_consul
     image: consul
+
+  mongo-express:
+    container_name: mongo-express
+    image: mongo-express
+
+  mongo:
+    container_name: mongo
+    image: mongo
+
+  sitemapservice:
+    image: ${DOCKER_REGISTRY-}sitemapservice
+    build:
+      context: .
+      dockerfile: src/Services/SiteMapService/SiteMapService/Dockerfile
+

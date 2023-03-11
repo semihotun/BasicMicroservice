@@ -1,17 +1,15 @@
+using Application.StartUp;
 using ConsulConfig;
+using Domain.SeedWork;
+using EventBus.Base.Abstraction;
+using Insfrastructure.Context;
+using Insfrastructure.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Setup;
 
 namespace PageService
 {
@@ -27,17 +25,18 @@ namespace PageService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.ConfigureDbContext(Configuration);
+            services.AddApplicationRegistration();
+            services.AddTransient<IRepository,PageDbContext>();
+            services.RabbitMqSetUp(Configuration,"PageService");
 
-            services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "PageService", Version = "v1" });
-            });
-            services.ConfigureConsul(Configuration);
+
+
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,IHostApplicationLifetime lifetime)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime lifetime)
         {
             if (env.IsDevelopment())
             {
@@ -49,15 +48,18 @@ namespace PageService
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors("AllowOrigin");
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-
             app.RegisterWithConsul(lifetime, Configuration);
+
+            IEventBus eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+
         }
     }
 }

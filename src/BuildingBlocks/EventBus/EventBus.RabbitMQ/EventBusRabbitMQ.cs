@@ -6,11 +6,8 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using RabbitMQ.Client.Exceptions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace EventBus.RabbitMQ
 {
@@ -28,7 +25,7 @@ namespace EventBus.RabbitMQ
         private void SubsManager_OnEventRemoved(object sender, string eventName)
         {
             eventName = ProccessEventName(eventName);
-            if (!rabbitMQPersistenConnection.IsConncected)
+            if (!rabbitMQPersistenConnection.IsConnected)
             {
                 rabbitMQPersistenConnection.TryConnect();
             }
@@ -42,7 +39,7 @@ namespace EventBus.RabbitMQ
 
         public override void Publish(IntegrationEvent integrationEvent)
         {
-            if (!rabbitMQPersistenConnection.IsConncected)
+            if (!rabbitMQPersistenConnection.IsConnected)
             {
                 rabbitMQPersistenConnection.TryConnect();
             }
@@ -53,7 +50,7 @@ namespace EventBus.RabbitMQ
                        {
                            //log here
                        });
-            
+
             var eventName = integrationEvent.GetType().Name;
 
             eventName = ProccessEventName(eventName);
@@ -80,7 +77,7 @@ namespace EventBus.RabbitMQ
 
             if (!SubsManager.HasSubscriptionsForEvent(eventName))
             {
-                if (!rabbitMQPersistenConnection.IsConncected)
+                if (!rabbitMQPersistenConnection.IsConnected)
                 {
                     rabbitMQPersistenConnection.TryConnect();
                 }
@@ -104,7 +101,7 @@ namespace EventBus.RabbitMQ
 
         private IModel CreateComsumerChannel()
         {
-            if (!rabbitMQPersistenConnection.IsConncected)
+            if (!rabbitMQPersistenConnection.IsConnected)
             {
                 rabbitMQPersistenConnection.TryConnect();
             }

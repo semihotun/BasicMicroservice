@@ -23,17 +23,16 @@ namespace EventBus.RabbitMQ
         public RabbitMQPersistenConnection(IConnectionFactory connectionFactory, int retryCount = 5)
         {
             this.connectionFactory = connectionFactory;
-            
+
             this.retryCount = retryCount;
         }
 
-        public bool IsConncected => connection != null && connection.IsOpen;
+        public bool IsConnected => connection != null && connection.IsOpen;
 
         public IModel CreateModel()
         {
             return connection.CreateModel();
         }
-
         public bool TryConnect()
         {
             //lock-->Bir diğer connect işlemi bitesiye kadar bekler  
@@ -50,7 +49,7 @@ namespace EventBus.RabbitMQ
                     connection = connectionFactory.CreateConnection();
 
                 });
-                if (IsConncected)
+                if (IsConnected)
                 {
                     connection.ConnectionShutdown += Connection_ConnectionShutdown;
                     connection.CallbackException += Connection_CallbackException;
