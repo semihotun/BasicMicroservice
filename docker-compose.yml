@@ -1,4 +1,4 @@
-version: '3.4'
+version: "3.4"
 
 services:
   web.apigateway:
@@ -13,13 +13,11 @@ services:
       context: .
       dockerfile: src/Services/FavoriteService/FavoriteService/Dockerfile
 
-
   identityservice:
     image: ${DOCKER_REGISTRY-}identityservice
     build:
       context: .
       dockerfile: src/Services/IdentityService/IdentityService/Dockerfile
-
 
   pageservice:
     image: ${DOCKER_REGISTRY-}pageservice
@@ -27,9 +25,15 @@ services:
       context: .
       dockerfile: src/Services/PageService/PageService/Dockerfile
 
+  sitemapservice:
+    image: ${DOCKER_REGISTRY-}sitemapservice
+    build:
+      context: .
+      dockerfile: src/Services/SiteMapService/SiteMapService/Dockerfile
+
   s_redis:
     container_name: c_redis
-    image: redis    
+    image: redis
 
   s_rabbitmq:
     container_name: c_rabbitmq
@@ -51,9 +55,13 @@ services:
     container_name: mongo
     image: mongo
 
-  sitemapservice:
-    image: ${DOCKER_REGISTRY-}sitemapservice
+  s_nginx:
+    container_name: c_nginx
+    image: nginx
+
+  webapp:
+    container_name: webapp
+    image: webapp
     build:
       context: .
-      dockerfile: src/Services/SiteMapService/SiteMapService/Dockerfile
-
+      dockerfile: src/Clients/AngularWebApp/WebApp/Dockerfile

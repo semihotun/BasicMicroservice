@@ -1,21 +1,21 @@
-version: '3.4'
+version: "3.4"
 
 services:
   web.apigateway:
     container_name: web.apigateway
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:2000
+      - ASPNETCORE_URLS=http://+:4100
       - ConsulConfig__Address=http://s_consul:8500
-      - ConsulConfig__ServiceAddress=http://web.apigateway:2000
+      - ConsulConfig__ServiceAddress=http://web.apigateway:4100
       - ConsulConfig__ServiceName=web.apigateway
       - ConsulConfig__ServiceId=web.apigateway
     ports:
-      - "2000:2000"
+      - "4100:4100"
     depends_on:
       - s_sqlserver
       - s_consul
-      - s_rabbitmq
+      - s_rabbitmq     
     networks:
       - net_backendservices
 
@@ -99,12 +99,12 @@ services:
 
   s_consul:
     ports:
-       - 8500:8500
-       - 8600:8600/tcp
-       - 8600:8600/udp
+      - 8500:8500
+      - 8600:8600/tcp
+      - 8600:8600/udp
     networks:
-       - net_frontend
-       - net_backendservices    
+      - net_frontend
+      - net_backendservices
 
   s_rabbitmq:
     ports:
@@ -115,33 +115,38 @@ services:
     networks:
       - net_backendservices
       - net_frontend
-   
+
   s_redis:
-    ports: 
-    - 6379:6379
+    ports:
+      - 6379:6379
     volumes:
-    - /opt/app_data/redis/:/data
+      - /opt/app_data/redis/:/data
     networks:
-    - net_backendservices
+      - net_backendservices
 
   s_sqlserver:
     user: root
     ports:
-     - 1457:1433
+      - 1457:1433
     environment:
-    - ACCEPT_EULA=sa
-    - MSSQL_SA_PASSWORD=semihO123.
+      - ACCEPT_EULA=sa
+      - MSSQL_SA_PASSWORD=semihO123.
     volumes:
-     - sqlserver_data:/var/opt/mssql/data
-     - sqlserver_log:/var/opt/mssql/log
+      - sqlserver_data:/var/opt/mssql/data
+      - sqlserver_log:/var/opt/mssql/log
     networks:
-     - net_backendservices
+      - net_backendservices
 
+  s_nginx:
+    container_name: c_nginx
+    image: nginx
+    ports:
+      - 7070:80
 
   mongo:
     image: mongo
     ports:
-     - 27017:27017
+      - 27017:27017
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: semihO123
@@ -158,15 +163,19 @@ services:
       ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
       ME_CONFIG_MONGODB_ADMINPASSWORD: semihO123
-      ME_CONFIG_BASICAUTH_USERNAME: root 
-      ME_CONFIG_BASICAUTH_PASSWORD: semihO123 
+      ME_CONFIG_BASICAUTH_USERNAME: root
+      ME_CONFIG_BASICAUTH_PASSWORD: semihO123
       ME_CONFIG_MONGODB_URL: mongo://root:semihO123@mongo:27017/
     networks:
       - net_backendservices
     depends_on:
       - mongo
 
-
+  webapp:
+    ports:
+      - 2300:2300
+    networks:
+      - net_frontend
 
 networks:
   net_frontend:
@@ -175,8 +184,7 @@ networks:
   net_backendservices:
     driver: bridge
     external: true
-    
-        
+
 volumes:
   rabbitmq:
   sqlserver_data:

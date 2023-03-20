@@ -59,7 +59,7 @@ namespace IdentityService.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(string))]
         [HttpGet("logout")]
-        public async Task<ActionResult> LogOut()
+        public ActionResult LogOut()
         {
             Response.Cookies.Delete("UserToken");
 

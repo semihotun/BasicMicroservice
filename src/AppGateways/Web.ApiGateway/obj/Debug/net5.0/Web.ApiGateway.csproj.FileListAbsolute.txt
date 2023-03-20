@@ -21,7 +21,6 @@ C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\bin\Debug\
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\Web.ApiGateway.csproj.AssemblyReference.cache
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\Web.ApiGateway.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\Web.ApiGateway.AssemblyInfoInputs.cache
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\Web.ApiGateway.AssemblyInfo.cs
@@ -33,7 +32,8 @@ C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\Web.ApiGateway.RazorTargetAssemblyInfo.cache
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\Web.ApiGateway.csproj.CopyComplete
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\Web.ApiGateway.dll
-C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\refint\Web.ApiGateway.dll
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\Web.ApiGateway.pdb
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\Web.ApiGateway.genruntimeconfig.cache
 C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\ref\Web.ApiGateway.dll
+C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\Web.ApiGateway.csproj.AssemblyReference.cache
+C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway\obj\Debug\net5.0\refint\Web.ApiGateway.dll

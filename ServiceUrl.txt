@@ -1,7 +1,11 @@
-WebApp				 -->http://localhost:2000
+ApiGateWay				 -->http://localhost:4100
 
 IdentityService.Api	 --> http://localhost:3000
 
 FavoriteService.Api	 --> http://localhost:5001
 PageService.Api	 --> http://localhost:5002
 SiteMapService.Api --> 5003
+
+
+
+WebApp -->2500

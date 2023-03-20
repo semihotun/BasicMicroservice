@@ -7,6 +7,6 @@ C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Consul\ConsulConfig\ob
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Consul\ConsulConfig\obj\Debug\net5.0\ConsulConfig.AssemblyInfo.cs
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Consul\ConsulConfig\obj\Debug\net5.0\ConsulConfig.csproj.CoreCompileInputs.cache
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Consul\ConsulConfig\obj\Debug\net5.0\ConsulConfig.dll
-C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Consul\ConsulConfig\obj\Debug\net5.0\refint\ConsulConfig.dll
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Consul\ConsulConfig\obj\Debug\net5.0\ConsulConfig.pdb
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Consul\ConsulConfig\obj\Debug\net5.0\ref\ConsulConfig.dll
+C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Consul\ConsulConfig\obj\Debug\net5.0\refint\ConsulConfig.dll

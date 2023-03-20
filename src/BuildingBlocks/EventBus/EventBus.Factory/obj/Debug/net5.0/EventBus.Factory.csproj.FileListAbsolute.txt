@@ -12,6 +12,6 @@ C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.Fact
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\EventBus.Factory.csproj.CoreCompileInputs.cache
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\EventBus.Factory.csproj.CopyComplete
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\EventBus.Factory.dll
-C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\refint\EventBus.Factory.dll
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\EventBus.Factory.pdb
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\ref\EventBus.Factory.dll
+C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.Factory\obj\Debug\net5.0\refint\EventBus.Factory.dll

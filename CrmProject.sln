@@ -66,13 +66,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SwaggerEx", "SwaggerEx", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityEx", "IdentityEx", "{89EE5CCA-DF8A-4838-B005-FF0F6DBFD7B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerEx", "src\BuildingBlocks\SwaggerEx\SwaggerEx\SwaggerEx.csproj", "{36D578D9-0734-44D2-9562-91D754AE40EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerEx", "src\BuildingBlocks\SwaggerEx\SwaggerEx\SwaggerEx.csproj", "{36D578D9-0734-44D2-9562-91D754AE40EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityEx", "src\BuildingBlocks\IdentityEx\IdentityEx\IdentityEx.csproj", "{0B754C4E-591A-45A1-A8F5-2E071724448B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityEx", "src\BuildingBlocks\IdentityEx\IdentityEx\IdentityEx.csproj", "{0B754C4E-591A-45A1-A8F5-2E071724448B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{FAD4F1E0-4481-4047-87B0-102F2E86E8B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setup", "src\BuildingBlocks\Setup\Setup\Setup.csproj", "{9197E365-D726-4B76-8D4D-ABAB4F903E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Setup", "src\BuildingBlocks\Setup\Setup\Setup.csproj", "{9197E365-D726-4B76-8D4D-ABAB4F903E2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{67023EFD-6DEC-4E3C-BCAD-002B3C4366DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +181,7 @@ Global
 		{0B754C4E-591A-45A1-A8F5-2E071724448B} = {89EE5CCA-DF8A-4838-B005-FF0F6DBFD7B3}
 		{FAD4F1E0-4481-4047-87B0-102F2E86E8B1} = {7B4B32AF-CE48-4EA9-AB56-E53DF808EC94}
 		{9197E365-D726-4B76-8D4D-ABAB4F903E2E} = {FAD4F1E0-4481-4047-87B0-102F2E86E8B1}
+		{67023EFD-6DEC-4E3C-BCAD-002B3C4366DF} = {C99B07A3-C89B-48CD-8C2B-21FFEF2883E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D2D71C0E-1579-4380-AD76-DCC817F1DE64}

@@ -20,6 +20,6 @@ C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Setup\Setup\obj\Debug\
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Setup\Setup\obj\Debug\net5.0\Setup.csproj.CoreCompileInputs.cache
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Setup\Setup\obj\Debug\net5.0\Setup.csproj.CopyComplete
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Setup\Setup\obj\Debug\net5.0\Setup.dll
-C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Setup\Setup\obj\Debug\net5.0\refint\Setup.dll
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Setup\Setup\obj\Debug\net5.0\Setup.pdb
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Setup\Setup\obj\Debug\net5.0\ref\Setup.dll
+C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\Setup\Setup\obj\Debug\net5.0\refint\Setup.dll

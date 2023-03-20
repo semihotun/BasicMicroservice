@@ -3,6 +3,7 @@ using IdentityService.Helper;
 using IdentityService.Models;
 using IdentityService.Result;
 using IdentityService.SeedWork;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -60,7 +61,7 @@ namespace IdentityService.Services
 
         private async Task<IResult> UserExists(string email)
         {
-            var userToCheck = _repository.AdminUser.AsQueryable().FirstOrDefault(x => x.Email == email);
+            var userToCheck =await _repository.AdminUser.AsQueryable().FirstOrDefaultAsync(x => x.Email == email);
             if (userToCheck != null)
             {
                 return new ErrorResult("Kullanıcı mevcut");
@@ -71,7 +72,7 @@ namespace IdentityService.Services
         private async Task<IDataResult<AccessToken>> CreateAccessToken(AdminUser user)
         {
             var accessToken = _tokenHelper.CreateToken(user);
-
+            await Task.CompletedTask;
             return new SuccessDataResult<AccessToken>(accessToken, "Token oluşturuldu");
         }
 

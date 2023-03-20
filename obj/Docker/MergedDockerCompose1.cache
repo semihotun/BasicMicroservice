@@ -215,6 +215,12 @@ services:
     - protocol: udp
       published: 8600
       target: 8600
+  s_nginx:
+    container_name: c_nginx
+    image: nginx
+    ports:
+    - published: 7070
+      target: 80
   s_rabbitmq:
     container_name: c_rabbitmq
     image: rabbitmq:3-management
@@ -328,9 +334,9 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
-      ASPNETCORE_URLS: http://+:2000
+      ASPNETCORE_URLS: http://+:4100
       ConsulConfig__Address: http://s_consul:8500
-      ConsulConfig__ServiceAddress: http://web.apigateway:2000
+      ConsulConfig__ServiceAddress: http://web.apigateway:4100
       ConsulConfig__ServiceId: web.apigateway
       ConsulConfig__ServiceName: web.apigateway
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
@@ -347,8 +353,8 @@ services:
     networks:
       net_backendservices: {}
     ports:
-    - published: 2000
-      target: 2000
+    - published: 4100
+      target: 4100
     tty: true
     volumes:
     - C:\Users\Semih\source\repos\CrmProject\src\AppGateways\Web.ApiGateway:/app:rw
@@ -359,6 +365,17 @@ services:
     - C:\Program Files (x86)\Microsoft\Xamarin\NuGet:/root/.nuget/fallbackpackages2:ro
     - C:\Users\Semih\.nuget\packages:/root/.nuget/packages:ro
     - C:\Users\Semih\source\repos\CrmProject:/src:rw
+  webapp:
+    build:
+      context: C:\Users\Semih\source\repos\CrmProject
+      dockerfile: src/Clients/AngularWebApp/WebApp/Dockerfile
+    container_name: webapp
+    image: webapp
+    networks:
+      net_frontend: {}
+    ports:
+    - published: 2300
+      target: 2300
 version: '3.4'
 volumes:
   rabbitmq: {}

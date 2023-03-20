@@ -1,0 +1,8 @@
+{
+  "docker.commands.composeUp": [
+    {
+      "label": "override",
+      "template": "docker-compose up -d --build"
+    }
+  ]
+}

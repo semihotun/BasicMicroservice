@@ -38,7 +38,7 @@ namespace SiteMapService.Extension
                     logger.LogInformation($"Migrated db with context { typeof(TContext).Name } ");
 
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     logger.LogError($"An error occoured migration the database used on context { typeof(TContext).Name }");
                 }

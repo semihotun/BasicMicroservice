@@ -10,6 +10,6 @@ C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.Rabb
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.RabbitMQ\obj\Debug\net5.0\EventBus.RabbitMQ.csproj.CoreCompileInputs.cache
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.RabbitMQ\obj\Debug\net5.0\EventBus.RabbitMQ.csproj.CopyComplete
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.RabbitMQ\obj\Debug\net5.0\EventBus.RabbitMQ.dll
-C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.RabbitMQ\obj\Debug\net5.0\refint\EventBus.RabbitMQ.dll
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.RabbitMQ\obj\Debug\net5.0\EventBus.RabbitMQ.pdb
 C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.RabbitMQ\obj\Debug\net5.0\ref\EventBus.RabbitMQ.dll
+C:\Users\Semih\source\repos\CrmProject\src\BuildingBlocks\EventBus\EventBus.RabbitMQ\obj\Debug\net5.0\refint\EventBus.RabbitMQ.dll
