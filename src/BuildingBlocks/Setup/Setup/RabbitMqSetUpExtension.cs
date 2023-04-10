@@ -17,7 +17,7 @@ namespace Setup
     public static class RabbitMqSetUpExtension
     {
         public static IServiceCollection RabbitMqSetUp(this IServiceCollection services,
-            IConfiguration configuration,string serviceName)
+            IConfiguration configuration, string serviceName)
         {
             services.AddHttpContextAccessor();
             services.AddMvc();
@@ -27,7 +27,7 @@ namespace Setup
                 // this formatter breaks Angular's Http response JSON parsing
                 opt.OutputFormatters.RemoveType<HttpNoContentOutputFormatter>();
             }).AddAuthorization();
-          
+
             services.AddSingleton<IEventBus>(sp =>
             {
                 EventBusConfig config = new()
@@ -47,6 +47,12 @@ namespace Setup
             services.AddIdentitySettings(configuration, JwtBearerDefaults.AuthenticationScheme);
             services.AddCustomSwaggerGen(serviceName, serviceName);
 
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+            }));
 
             ServiceTool.Create(services);
             return services;

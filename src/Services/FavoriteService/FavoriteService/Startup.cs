@@ -38,7 +38,7 @@ namespace FavoriteService
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
-
+            app.UseCors("MyPolicy");
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

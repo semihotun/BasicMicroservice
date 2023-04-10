@@ -47,7 +47,7 @@ namespace IdentityService
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors("MyPolicy");
             app.UseAuthentication();
             app.UseAuthorization();
 

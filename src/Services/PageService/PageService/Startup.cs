@@ -48,7 +48,7 @@ namespace PageService
             app.UseHttpsRedirection();
 
             app.UseRouting();
-            app.UseCors("AllowOrigin");
+            app.UseCors("MyPolicy");
             app.UseAuthentication();
             app.UseAuthorization();
 

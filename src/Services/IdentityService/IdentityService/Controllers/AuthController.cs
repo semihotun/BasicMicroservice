@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 
 namespace IdentityService.Controllers
 {
+    [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private IAdminAuthService _adminAuthService;
+        private readonly IAdminAuthService _adminAuthService;
 
         public AuthController(IAdminAuthService adminAuthService)
         {
@@ -23,15 +24,15 @@ namespace IdentityService.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(string))]
         [HttpPost("login")]
-        public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
+        public async Task<IActionResult> Login([FromBody]UserForLoginDto userForLoginDto)
         {
             var result = await _adminAuthService.Login(userForLoginDto);
             if (result.Success)
             {
-                CookieOptions cookieOptions = new CookieOptions();
+                CookieOptions cookieOptions = new();
                 cookieOptions.Expires = new DateTimeOffset(DateTime.Now.AddDays(1));
                 Response.Cookies.Append("UserToken", result.Data.Token, cookieOptions);
-                return Ok(result.Data.Token);
+                return Ok(result.Data);
             }
             return BadRequest("Giriş Başarısız");
         }
@@ -41,12 +42,12 @@ namespace IdentityService.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(string))]
         [HttpPost("register")]
-        public async Task<IActionResult> Register(UserForRegisterDto adminUser)
+        public async Task<IActionResult> Register([FromBody] UserForRegisterDto adminUser)
         {
             var result = await _adminAuthService.Register(adminUser);
             if (result.Success)
             {
-                CookieOptions cookieOptions = new CookieOptions();
+                CookieOptions cookieOptions = new();
                 cookieOptions.Expires = new DateTimeOffset(DateTime.Now.AddDays(1));
                 Response.Cookies.Append("UserToken", result.Data.Token, cookieOptions);
                 return Ok("Kayıt Başarılı");

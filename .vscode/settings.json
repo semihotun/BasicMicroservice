@@ -4,5 +4,34 @@
       "label": "override",
       "template": "docker-compose up -d --build"
     }
-  ]
+  ],
+  "workbench.colorTheme": "Visual Studio 2019 Dark",
+  "workbench.preferredHighContrastColorTheme": "Visual Studio 2019 Dark",
+  "workbench.preferredDarkColorTheme": "Winter is Coming (Dark Blue)",
+  "workbench.preferredHighContrastLightColorTheme": "Visual Studio 2019 Dark",
+  "workbench.preferredLightColorTheme": "Visual Studio 2019 Dark",
+  "window.autoDetectColorScheme": false,
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.07)",
+    "rgba(127,255,127,0.07)",
+    "rgba(255,127,255,0.07)",
+    "rgba(79,236,236,0.07)"
+  ],
+
+  "workbench.colorCustomizations": {
+    "sideBar.dropBackground": "#fff",
+    "sideBarTitle.foreground": "#fff",
+    "sideBarSectionHeader.background": "#2e2e2e",
+    "sideBarSectionHeader.foreground": "#fff",
+    "sideBar.border": "#3d3d3d",
+    "sideBar.foreground": "#fff",
+    "sideBar.background": "#1e1e1e",
+    "list.inactiveSelectionBackground": "#4e4e4e",
+    "gitDecoration.modifiedResourceForeground": "#fff",
+    "gitDecoration.deletedResourceForeground": "#fff",
+    "gitDecoration.untrackedResourceForeground": "#fff",
+    "gitDecoration.ignoredResourceForeground": "#fff",
+    "gitDecoration.conflictingResourceForeground": "#fff"
+  }
 }
+

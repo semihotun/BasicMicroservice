@@ -1,0 +1,24 @@
+<div class="row justify-content-center p-4">
+    <div class="row col-md-12">
+        <h2 class="col-md-12 text-center">Login</h2>
+    </div>
+    <form *ngIf="loginForm" [formGroup]="loginForm" (ngSubmit)="login()">
+    <div class="form-group ">
+        <div class="row p-2">
+            <div class="col-md-3">E-Mail</div>
+            <div class="col-md-9"><input type="textbox" class="form-control" placeholder="email" id="email" name="email"
+                    formControlName="email"></div>
+        </div>
+
+        <div class="row p-2">
+            <div class="col-md-3">Password</div>
+            <div class="col-md-9"><input type="textbox" class="form-control" placeholder="password" id="password" name="password"
+                    formControlName="password"></div>
+        </div>
+
+        <div class="row p-2">
+            <input type="submit" value="Giriş Yap" class="btn btn-dark">
+        </div>
+    </div>
+    </form>
+</div>
