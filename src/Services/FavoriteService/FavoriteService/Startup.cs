@@ -32,7 +32,13 @@ namespace FavoriteService
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FavoriteService v1"));
             }
-
+            else
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FavoriteService v1"));
+                app.RegisterWithConsul(lifetime, Configuration);
+            }
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -44,7 +50,7 @@ namespace FavoriteService
                 endpoints.MapControllers();
             });
 
-            app.RegisterWithConsul(lifetime, Configuration);
+          
         }
     }
 }

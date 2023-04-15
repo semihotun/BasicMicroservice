@@ -44,7 +44,13 @@ namespace PageService
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PageService v1"));
             }
-
+            else
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PageService v1"));
+                app.RegisterWithConsul(lifetime, Configuration);
+            }
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -56,7 +62,7 @@ namespace PageService
             {
                 endpoints.MapControllers();
             });
-            app.RegisterWithConsul(lifetime, Configuration);
+        
 
             IEventBus eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
 

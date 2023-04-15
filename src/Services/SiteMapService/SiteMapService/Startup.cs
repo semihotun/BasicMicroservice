@@ -40,7 +40,14 @@ namespace SiteMapService
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PageService v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SiteMapService v1"));
+            }
+            else
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SiteMapService v1"));
+                app.RegisterWithConsul(lifetime, Configuration);
             }
 
             app.UseHttpsRedirection();
@@ -53,7 +60,7 @@ namespace SiteMapService
             {
                 endpoints.MapControllers();
             });
-            app.RegisterWithConsul(lifetime, Configuration);
+  
 
             IEventBus eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
             eventBus.Subscribe<SiteMapCreatedIntegrationEvent, SiteMapCreatedIntegrationEventHandler>();

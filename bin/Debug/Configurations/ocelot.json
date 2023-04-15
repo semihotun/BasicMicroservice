@@ -2,7 +2,7 @@
   "Routes": [
     {
       "UseServiceDiscovery": true,
-      "ServiceName": "FavoriteService",
+      "ServiceName": "favoriteservice",
       "DownstreamPathTemplate": "/api/favorite/{everything}",
       "DownstreamScheme": "http",
       "UpstreamPathTemplate": "/favorite/{everything}",
@@ -11,7 +11,7 @@
     },
     {
       "UseServiceDiscovery": true,
-      "ServiceName": "PageService",
+      "ServiceName": "pageservice",
       "DownstreamPathTemplate": "/api/page/{everything}",
       "DownstreamScheme": "http",
       "UpstreamPathTemplate": "/page/{everything}",
@@ -20,16 +20,16 @@
     },
     {
       "UseServiceDiscovery": true,
-      "ServiceName": "IdentityService",
-      "DownstreamPathTemplate": "/api/auth",
+      "ServiceName": "identityservice",
+      "DownstreamPathTemplate": "/api/auth/{everything}",
       "DownstreamScheme": "http",
-      "UpstreamPathTemplate": "/auth",
+      "UpstreamPathTemplate": "/auth/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
       "UpstreamScheme": "http"
     },
     {
       "UseServiceDiscovery": true,
-      "ServiceName": "SiteMapService",
+      "ServiceName": "sitemapservice",
       "DownstreamPathTemplate": "/api/SiteMap/{everything}",
       "DownstreamScheme": "http",
       "UpstreamPathTemplate": "/sitemap/{everything}",
@@ -44,14 +44,15 @@
       "UpstreamPathTemplate": "/basket/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
       "UpstreamScheme": "http"
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "webapigateway",
+      "DownstreamPathTemplate": "/api/webapigateway/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/webapigateway/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
+      "UpstreamScheme": "http"
     }
-  ],
-  "GlobalConfiguration": {
-    "BaseUrl": "http://web.apigateway:2000",
-    "ServiceDiscoveryProvider": {
-      "Host": "s_consul",
-      "Port": 8500,
-      "Type": "Consul"
-    }
-  }
+  ]
 }

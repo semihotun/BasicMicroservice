@@ -19,4 +19,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\BuildingBlocks\Setup\Setup\Setup.csproj" />
+  </ItemGroup>
+
+
 </Project>

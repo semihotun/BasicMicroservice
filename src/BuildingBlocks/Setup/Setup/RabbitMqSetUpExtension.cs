@@ -28,21 +28,43 @@ namespace Setup
                 opt.OutputFormatters.RemoveType<HttpNoContentOutputFormatter>();
             }).AddAuthorization();
 
-            services.AddSingleton<IEventBus>(sp =>
+            if(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development")
             {
-                EventBusConfig config = new()
+                services.AddSingleton<IEventBus>(sp =>
                 {
-                    ConnectionRetryCount = 5,
-                    EventNameSuffix = "IntegrationEvent",
-                    SubscriberClientAppName = "serviceName",
-                    Connection = new ConnectionFactory()
+                    EventBusConfig config = new()
                     {
-                        Uri = new Uri("amqp://guest:guest@s_rabbitmq:5672")
-                    },
-                    EventBusType = EventBusType.RabbitMQ
-                };
-                return EventBusFactory.Create(config, sp);
-            });
+                        ConnectionRetryCount = 5,
+                        EventNameSuffix = "IntegrationEvent",
+                        SubscriberClientAppName = "serviceName",
+                        Connection = new ConnectionFactory()
+                        {
+                            Uri = new Uri("amqp://guest:guest@localhost:5672")
+                        },
+                        EventBusType = EventBusType.RabbitMQ
+                    };
+                    return EventBusFactory.Create(config, sp);
+                });
+            }
+            else
+            {
+                services.AddSingleton<IEventBus>(sp =>
+                {
+                    EventBusConfig config = new()
+                    {
+                        ConnectionRetryCount = 5,
+                        EventNameSuffix = "IntegrationEvent",
+                        SubscriberClientAppName = "serviceName",
+                        Connection = new ConnectionFactory()
+                        {
+                            Uri = new Uri("amqp://guest:guest@s_rabbitmq:5672")
+                        },
+                        EventBusType = EventBusType.RabbitMQ
+                    };
+                    return EventBusFactory.Create(config, sp);
+                });
+            }
+
             services.ConfigureConsul(configuration);
             services.AddIdentitySettings(configuration, JwtBearerDefaults.AuthenticationScheme);
             services.AddCustomSwaggerGen(serviceName, serviceName);

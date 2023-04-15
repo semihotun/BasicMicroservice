@@ -102,3 +102,4 @@ C:\Users\Semih\source\repos\CrmProject\src\Services\SiteMapService\SiteMapServic
 C:\Users\Semih\source\repos\CrmProject\src\Services\SiteMapService\SiteMapService\obj\Debug\net5.0\SiteMapService.genruntimeconfig.cache
 C:\Users\Semih\source\repos\CrmProject\src\Services\SiteMapService\SiteMapService\obj\Debug\net5.0\ref\SiteMapService.dll
 C:\Users\Semih\source\repos\CrmProject\src\Services\SiteMapService\SiteMapService\obj\Debug\net5.0\refint\SiteMapService.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\SiteMapService\SiteMapService\bin\Debug\net5.0\appsettings.Production.json

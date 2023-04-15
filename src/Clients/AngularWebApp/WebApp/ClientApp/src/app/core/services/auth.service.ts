@@ -18,7 +18,7 @@ export class AuthService {
     ) { }
 
   login(userForLoginDto: UserForLoginDto): Observable<AccessToken> {
-    let result = this.httpClient.post<AccessToken>(environment.getAuthUrl + 'Auth/login', userForLoginDto);
+    let result = this.httpClient.post<AccessToken>(environment.getApiUrl + 'auth/login', userForLoginDto);
 
     return result;
   }

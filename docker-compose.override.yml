@@ -4,7 +4,7 @@ services:
   web.apigateway:
     container_name: web.apigateway
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://+:4100
       - ConsulConfig__Address=http://s_consul:8500
       - ConsulConfig__ServiceAddress=http://web.apigateway:4100
@@ -22,7 +22,7 @@ services:
   favoriteservice:
     container_name: favoriteservice
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://+:5001
       - ConsulConfig__Address=http://s_consul:8500
       - ConsulConfig__ServiceAddress=http://favoriteservice:5001
@@ -42,7 +42,7 @@ services:
   identityservice:
     container_name: identityservice
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://+:3000
       - ConsulConfig__Address=http://s_consul:8500
       - ConsulConfig__ServiceAddress=http://identityservice:3000
@@ -61,7 +61,7 @@ services:
   sitemapservice:
     container_name: sitemapservice
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://+:5003
       - ConsulConfig__Address=http://s_consul:8500
       - ConsulConfig__ServiceAddress=http://sitemapservice:5003
@@ -81,7 +81,7 @@ services:
   pageservice:
     container_name: pageservice
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://+:5002
       - ConsulConfig__Address=http://s_consul:8500
       - ConsulConfig__ServiceAddress=http://pageservice:5002

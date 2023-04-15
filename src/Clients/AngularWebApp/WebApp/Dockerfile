@@ -7,7 +7,7 @@ COPY /src/Clients/AngularWebApp/WebApp/ClientApp/package.json /usr/src/app
 
 RUN npm install
 COPY src/Clients/AngularWebApp/WebApp/ClientApp/. /usr/src/app
-RUN npm run build 
+RUN npm run build --prod
 
 
 FROM nginx:alpine

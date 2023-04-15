@@ -4,16 +4,24 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-
 namespace IdentityService.Extension
 {
     public static class DbContextRegistiration
     {
         public static IServiceCollection ConfigureDbContext(this IServiceCollection services, IConfiguration configuration)
         {
+            var cnn = "";
+            if(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development")
+            {
+                cnn = configuration["LocalConnectionString"];
+            }
+            else
+            {
+                cnn = configuration["ConnectionString"];
+            }
             services.AddEntityFrameworkSqlServer().AddDbContext<IdentityContext>(option =>
             {
-                option.UseSqlServer(configuration["ConnectionString"],
+                option.UseSqlServer(cnn,
                 sqlServerOptionsAction: sqlOptions =>
                 {
                     sqlOptions.EnableRetryOnFailure(
@@ -23,7 +31,7 @@ namespace IdentityService.Extension
                 });
             });
             var optionBuilder = new DbContextOptionsBuilder<IdentityContext>()
-                .UseSqlServer(configuration["ConnectionString"]);
+                .UseSqlServer(cnn);
 
             using (var ctx = new IdentityContext(optionBuilder.Options, null))
             {
