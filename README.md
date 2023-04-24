@@ -1,8 +1,8 @@
 # CrmProject
-CrmProject
--->Architecture
-DDD,Microservice,Cqrs
--->Language
-.Net5,Angular
--->Other
-RabbitMq,Mssql,Docker,Jenkins
+CrmProject <br>
+-->Architecture  <br>
+DDD,Microservice,Cqrs  <br>
+-->Language  <br>
+.Net5,Angular  <br>
+-->Other  <br>
+RabbitMq,Mssql,Docker,Jenkins <br>
