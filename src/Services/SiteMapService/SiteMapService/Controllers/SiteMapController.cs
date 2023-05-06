@@ -8,13 +8,6 @@ namespace SiteMapService.Controllers
     [ApiController]
     public class SiteMapController : ControllerBase
     {
-        private readonly IRepository _repo;
-
-        [NonAction]
-        protected IActionResult Index()
-        {
-            return Ok("sadas");
-        }
 
     }
 }

@@ -37,11 +37,16 @@ namespace Domain.AggregateModels.PageAggregate
 
         private void AddUserId()
         {
-            _httpContextAccessor = ServiceTool.ServiceProvider.GetRequiredService<IHttpContextAccessor>();
-            var userId= Guid.Parse(_httpContextAccessor?.HttpContext?.User?
-                .FindFirst(x => x.Type == ClaimTypes.NameIdentifier)?
-                .Value);
-            UserId = userId;
+            try
+            {
+                _httpContextAccessor = ServiceTool.ServiceProvider.GetRequiredService<IHttpContextAccessor>();
+                var userId = Guid.Parse(_httpContextAccessor?.HttpContext?.User?
+                    .FindFirst(x => x.Type == ClaimTypes.NameIdentifier)?
+                    .Value);
+                UserId = userId;
+            }
+            catch (Exception){ }
+     
         }
 
     }

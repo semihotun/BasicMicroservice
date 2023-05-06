@@ -4,6 +4,7 @@ using IdentityService.Models;
 using IdentityService.Result;
 using IdentityService.SeedWork;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -37,7 +38,7 @@ namespace IdentityService.Services
             await _repository.SaveEntitiesAsync();
 
             var result = (await CreateAccessToken(user)).Data;
-
+            Log.Information($"Register with Id {user.Id}");
             return new SuccessDataResult<AccessToken>(result, "Kayıt oldu");
         }
         public async Task<IDataResult<AccessToken>> Login(UserForLoginDto userForLoginDto)
@@ -55,7 +56,7 @@ namespace IdentityService.Services
             }
 
             var result = (await CreateAccessToken(userToCheck)).Data;
-
+            
             return new SuccessDataResult<AccessToken>(result, "Başarılı giriş");
         }
 

@@ -1,10 +1,13 @@
 using ConsulConfig;
+using FavoriteService.Extension;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Setup;
+using System.Reflection;
 
 namespace FavoriteService
 {
@@ -20,7 +23,12 @@ namespace FavoriteService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMongoDbSettings(Configuration);
             services.RabbitMqSetUp(Configuration, "FavoriteService");
+            var assembly = Assembly.GetExecutingAssembly();
+            services.AddAutoMapper(assembly);
+            services.AddMediatR(assembly);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -48,17 +48,27 @@ services:
     container_name: c_consul
     image: consul
 
-  mongo-express:
-    container_name: mongo-express
+  s_mongo-express:
+    container_name: s_mongo-express
     image: mongo-express
 
-  mongo:
-    container_name: mongo
+  s_mongo:
+    container_name: s_mongo
     image: mongo
 
   s_nginx:
     container_name: c_nginx
     image: nginx
+
+  s_elasticsearch:
+    container_name: s_elasticsearch
+    image: elasticsearch
+  s_kibana:
+    container_name: s_kibana
+    image: kibana
+  s_graylog:
+    container_name: s_graylog
+    image: graylog
 
   webapp:
     container_name: webapp

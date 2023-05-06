@@ -15,7 +15,7 @@ namespace Domain.AggregateModels.PageAggregate
         public PageSeo()
         {
         }
-        public PageSeo(string pageTag, string pageDescription)
+        public PageSeo(string pageTag, string pageDescription):this()
         {
             PageTag = pageTag;
             PageDescription = pageDescription;

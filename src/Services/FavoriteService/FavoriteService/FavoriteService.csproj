@@ -1,23 +1,32 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <DockerfileContext>..\..\..\..</DockerfileContext>
-    <UserSecretsId>316d6ddd-0f15-4deb-9603-4d5fc4164bbf</UserSecretsId>
-    <DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..\..\..</DockerfileContext>
+		<UserSecretsId>316d6ddd-0f15-4deb-9603-4d5fc4164bbf</UserSecretsId>
+		<DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+		<PackageReference Include="MongoDB.Driver" Version="2.14.1" />
+		<PackageReference Include="MediatR" Version="10.0.0" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.0" />
+		<PackageReference Include="AutoMapper" Version="11.0.0" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\BuildingBlocks\Consul\ConsulConfig\ConsulConfig.csproj" />
-    <ProjectReference Include="..\..\..\BuildingBlocks\IdentityEx\IdentityEx\IdentityEx.csproj" />
-    <ProjectReference Include="..\..\..\BuildingBlocks\Setup\Setup\Setup.csproj" />
-    <ProjectReference Include="..\..\..\BuildingBlocks\SwaggerEx\SwaggerEx\SwaggerEx.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\BuildingBlocks\Consul\ConsulConfig\ConsulConfig.csproj" />
+		<ProjectReference Include="..\..\..\BuildingBlocks\IdentityEx\IdentityEx\IdentityEx.csproj" />
+		<ProjectReference Include="..\..\..\BuildingBlocks\Setup\Setup\Setup.csproj" />
+		<ProjectReference Include="..\..\..\BuildingBlocks\SwaggerEx\SwaggerEx\SwaggerEx.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Handler\Favorite\Query\" />
+	</ItemGroup>
 
 </Project>

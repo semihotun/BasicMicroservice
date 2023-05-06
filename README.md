@@ -4,5 +4,11 @@ CrmProject <br>
 DDD,Microservice,Cqrs  <br>
 -->Language  <br>
 .Net5,Angular  <br>
--->Other  <br>
-RabbitMq,Mssql,Docker,Jenkins <br>
+-->Database <br>
+MongoDb,Mssql <br>
+-->Que  <br>
+RabbitMq<br>
+-->Devops <br>
+Docker,Jenkins <br>
+-->Other
+UnitTest,IntegrationTest

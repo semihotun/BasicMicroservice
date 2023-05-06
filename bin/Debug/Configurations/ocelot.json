@@ -25,7 +25,13 @@
       "DownstreamScheme": "http",
       "UpstreamPathTemplate": "/auth/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
-      "UpstreamScheme": "http"
+      "UpstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "3000"
+        }
+      ]
     },
     {
       "UseServiceDiscovery": true,

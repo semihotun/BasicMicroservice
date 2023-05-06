@@ -100,3 +100,15 @@ C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityServ
 C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\obj\Debug\net5.0\IdentityService.genruntimeconfig.cache
 C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\obj\Debug\net5.0\ref\IdentityService.dll
 C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\obj\Debug\net5.0\refint\IdentityService.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\serilog.json
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.Sinks.Graylog.Core.dll
+C:\Users\Semih\source\repos\CrmProject\src\Services\IdentityService\IdentityService\bin\Debug\net5.0\Serilog.Sinks.Graylog.dll

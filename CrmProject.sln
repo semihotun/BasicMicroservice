@@ -41,6 +41,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.ApiGateway", "src\AppGa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F287C031-4A54-4C52-B523-DCA9C103C088}"
 	ProjectSection(SolutionItems) = preProject
+		graylog.js = graylog.js
 		ServiceUrl.txt = ServiceUrl.txt
 	EndProjectSection
 EndProject
@@ -78,7 +79,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{67023E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{E19BFC0D-DE5E-4791-BA7D-3B652A47E1F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBusUnitTest", "..\EventBusUnitTest\EventBusUnitTest.csproj", "{0C688CC4-D33D-4111-A0FF-BA58EB03B597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBusIntegrationTest", "Tests\BuildingBlocks\EventBusIntegrationTest\EventBusIntegrationTest.csproj", "{C0B5A45D-16B8-4910-994B-21A9F5FE97A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F8CC8B50-2855-4686-BE9B-ECFA2B99605A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PageServiceUnitTest", "Tests\Services\PageServiceUnitTest\PageServiceUnitTest.csproj", "{8A4179B6-3392-4943-AFCE-7FAE287F6A6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -150,10 +155,14 @@ Global
 		{9197E365-D726-4B76-8D4D-ABAB4F903E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9197E365-D726-4B76-8D4D-ABAB4F903E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9197E365-D726-4B76-8D4D-ABAB4F903E2E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C688CC4-D33D-4111-A0FF-BA58EB03B597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C688CC4-D33D-4111-A0FF-BA58EB03B597}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C688CC4-D33D-4111-A0FF-BA58EB03B597}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C688CC4-D33D-4111-A0FF-BA58EB03B597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B5A45D-16B8-4910-994B-21A9F5FE97A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B5A45D-16B8-4910-994B-21A9F5FE97A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B5A45D-16B8-4910-994B-21A9F5FE97A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B5A45D-16B8-4910-994B-21A9F5FE97A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4179B6-3392-4943-AFCE-7FAE287F6A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4179B6-3392-4943-AFCE-7FAE287F6A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4179B6-3392-4943-AFCE-7FAE287F6A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4179B6-3392-4943-AFCE-7FAE287F6A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,7 +200,9 @@ Global
 		{9197E365-D726-4B76-8D4D-ABAB4F903E2E} = {FAD4F1E0-4481-4047-87B0-102F2E86E8B1}
 		{67023EFD-6DEC-4E3C-BCAD-002B3C4366DF} = {C99B07A3-C89B-48CD-8C2B-21FFEF2883E2}
 		{E19BFC0D-DE5E-4791-BA7D-3B652A47E1F0} = {89B26F07-2280-4A6B-9293-4E0C6EA6D0AE}
-		{0C688CC4-D33D-4111-A0FF-BA58EB03B597} = {E19BFC0D-DE5E-4791-BA7D-3B652A47E1F0}
+		{C0B5A45D-16B8-4910-994B-21A9F5FE97A8} = {E19BFC0D-DE5E-4791-BA7D-3B652A47E1F0}
+		{F8CC8B50-2855-4686-BE9B-ECFA2B99605A} = {89B26F07-2280-4A6B-9293-4E0C6EA6D0AE}
+		{8A4179B6-3392-4943-AFCE-7FAE287F6A6C} = {F8CC8B50-2855-4686-BE9B-ECFA2B99605A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D2D71C0E-1579-4380-AD76-DCC817F1DE64}

@@ -27,15 +27,24 @@ namespace Application.Handlers.Page.Commands.Create
         }
         public async Task<IResult> Handle(CreatePageCommand request, CancellationToken cancellationToken)
         {
-            var data = _mapper.Map<Domain.AggregateModels.PageAggregate.Page>(request);
-            var pageSeo = new PageSeo(request.PageSeoTag, request.PageDescription);
-            data.AddPageSeo(pageSeo);
-            _repository.Page.Add(data);
-            await _repository.SaveEntitiesAsync();
+            try
+            {
+                var data = _mapper.Map<Domain.AggregateModels.PageAggregate.Page>(request);
+                var pageSeo = new PageSeo(request.PageSeoTag, request.PageDescription);
+                data.AddPageSeo(pageSeo);
+                _repository.Page.Add(data);
+                await _repository.SaveEntitiesAsync();
 
-            _eventBus.Publish(new SiteMapCreatedIntegrationEvent(StringHelpers.UrlFormatConverter(data.Header), data.Id));
+                _eventBus.Publish(new SiteMapCreatedIntegrationEvent(StringHelpers.UrlFormatConverter(data.Header), data.Id));
 
-            return new SuccessResult("Registered");
+                return new SuccessResult("Registered");
+            }
+            catch (System.Exception)
+            {
+                return new ErrorResult("Not Registered");
+                throw;
+            }
+           
         }
     }
 }

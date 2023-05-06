@@ -95,3 +95,17 @@ C:\Users\Semih\source\repos\CrmProject\obj\Debug\docker-compose.dcproj.CopyCompl
 C:\Users\Semih\source\repos\CrmProject\bin\Debug\appsettings.Production.json
 C:\Users\Semih\source\repos\CrmProject\bin\Debug\Configurations\ocelot.Development.json
 C:\Users\Semih\source\repos\CrmProject\bin\Debug\Configurations\ocelot.Production.json
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\MongoDB.Driver.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\MongoDB.Bson.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\DnsClient.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\SharpCompress.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\serilog.json
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\Serilog.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\Serilog.Settings.Configuration.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\Serilog.AspNetCore.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\Serilog.Extensions.Logging.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Semih\source\repos\CrmProject\bin\Debug\Serilog.Extensions.Hosting.dll
