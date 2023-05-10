@@ -141,7 +141,7 @@ services:
     container_name: c_nginx
     image: nginx
     ports:
-      - 7070:80
+      - 8080:80
 
   s_mongo:
     container_name: s_mongo
@@ -240,7 +240,7 @@ services:
 
   webapp:
     ports:
-      - 2300:2300
+      - 80:80
     networks:
       - net_frontend
 
