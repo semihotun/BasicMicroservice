@@ -141,7 +141,7 @@ services:
     container_name: c_nginx
     image: nginx
     ports:
-      - 8080:80
+      - 8070:80
 
   s_mongo:
     container_name: s_mongo
