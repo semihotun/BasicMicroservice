@@ -1,12 +1,12 @@
-# CrmProject
+# CrmProject 
 CrmProject <br>
 -->Architecture  <br>
-DDD,Microservice,Cqrs  <br>
+Mediator Pattern  <br>
 -->Language  <br>
 .Net5,Angular  <br>
 -->Database <br>
 MongoDb,Mssql <br>
--->Que  <br>
+-->Queue <br>
 RabbitMq<br>
 -->Devops <br>
 Docker,Jenkins Github Scm,Github Webhook trigger <br>
